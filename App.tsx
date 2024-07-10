@@ -13,6 +13,9 @@ export default function App(): JSX.Element {
         modal
         open={open}
         date={date}
+        // mode={'datetime'}
+        // mode={'date'}
+        mode={'time'}
         onConfirm={(date) => {
           setOpen(false)
           setDate(date)
